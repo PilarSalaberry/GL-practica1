@@ -1,0 +1,13 @@
+.header {
+    background-color: #f26721;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin: 0;
+    color: #fff;
+}
