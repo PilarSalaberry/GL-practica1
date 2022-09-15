@@ -1,0 +1,86 @@
+.container {
+    display: grid;
+    grid-gap: 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.container--header {
+    height: 100px;
+}
+
+.container__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container--logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: red;
+}
+
+.container--heading {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: green;
+}
+
+.container--menu {
+    background-color: yellow;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container--cards {
+    grid-template-columns: repeat(3, 1fr);
+    height: 180px;
+}
+
+.container__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card--1 {
+    background-color: blue;
+}
+
+.card--2 {
+    background-color: grey;
+}
+
+.card--3 {
+    background-color: pink;
+}
+
+.container__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+.container__body--page {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    background-color: lightgreen;
+}
+
+.container__body--side {
+    grid-column-start: 9;
+    grid-column-end: 10;
+    background-color: darkolivegreen;
+}
+
+.container--footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:cornflowerblue ;
+    height: 80px;
+}
